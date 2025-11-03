@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    border-bottom: .1px solid rgb(82, 80, 80);
+
+}
+.h{
+    color: rgb(255, 255, 255);
+        margin: 0;
+        font-size: 13px;
+        padding-top: 20PX;
+        text-align: center;
+}
+.main{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+   
+}
+/*  */
+.paper p{
+    width: 33.3%;
+    margin: 0;
+    color: #ffffff;
+    position: absolute;
+    left: 140px;
+    top: 18px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home{
+    position: absolute;
+    left: 300px;
+    color: white;
+    bottom: 3px;
+    text-decoration: underline;
+}
+.home :hover{
+   text-decoration: underline; 
+}
+.about{
+    position: absolute;
+    left: 400px;
+    color: white;
+    bottom: 3px;
+    text-decoration: underline;
+}
+.about:hover{
+   text-decoration: underline; 
+}
+.catalogue{
+    position: absolute;
+    left: 500px;
+    color: white;
+    bottom: 3px;
+    text-decoration: underline;
+}
+.catalogue:hover{
+   text-decoration: underline; 
+}
+.track{
+    position: absolute;
+    left: 600px;
+    color: white;
+    bottom: 3px;
+    text-decoration: underline;
+}
+.catalogue :hover{
+   text-decoration: underline; 
+}
+.about{
+    position: absolute;
+    left: 360px;
+    color: white;
+    bottom: 3px;
+}
+.pic1{
+      width: 200%;
+    display: flex;
+    height: 70px;
+    justify-content: end;
+    padding-right: 50px;
+
+}
+.pic2{
+      
+    display: flex;
+    height: 70px;
+    justify-content: end;
+    padding-top: 20px;
+    padding-right: 70px;
+
+}
+.image{
+    width: 100%;
+    height: 1138px;
+     
+    display: grid;
+    padding-bottom: 10px;
+   
+    grid-template-columns: repeat(3,400px);
+    grid-template-rows: repeat(3,350px);
+    justify-content: center;
+    gap: 10px;
+
+}
+.image img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    padding-top: 36px;
+}
+.down{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.pic3 img{
+     width: 394px ;
+     height: 527;
+     padding-left: 90px;
+}
+.text{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.button{
+    background-color: black;
+    color: white;
+}
+.foot{
+    width: 100%;
+    height: 290PX;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 23px;
+
+}
+.foot p{
+    padding-top: 15px;
+}
+.foot1{
+    margin: 0;
+    border: 0;
+    width: 100%;
+    height: 40px;
+    
+    background-color: black;
+    color: white;
+}
+.foot1 ul{
+    padding-left: 200px;
+     text-align: center;
+display: flex;
+padding-top: 20px;
+gap: 20px;
+}
+
+
+
+ 
